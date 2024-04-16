@@ -2007,11 +2007,11 @@ form label {
   font-weight: bold
 }
 
-#fh5co-health-protocol{
+#fh5co-protocol{
   padding: 7em 0;
   position: relative;
 }
-#fh5co-health-protocol:before{
+#fh5co-protocol:before{
   content: " ";
   background-size: cover;
   position: absolute;
@@ -2022,7 +2022,7 @@ form label {
   opacity: 0.2;
   background-image: url('../images/background/blue-brush-1.jpg');
 }
-#fh5co-health-protocol .icon{
+#fh5co-protocol .icon{
   width: 54px;
   height: 54px;
   background: #4d6b92;
@@ -2037,7 +2037,7 @@ form label {
   border-radius: 50%;
   margin: 0 auto;
 }
-#fh5co-health-protocol .description h3{
+#fh5co-protocol .description h3{
   margin-top: 15px;
   margin-bottom: 0;
 }
