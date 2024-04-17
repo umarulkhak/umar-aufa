@@ -84,11 +84,6 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
 </head>
 
 <body>
@@ -424,7 +419,7 @@
 
 				<iframe
 					src="https://docs.google.com/forms/d/e/1FAIpQLSdBtIKTuKYTyyPE7JorUptkt1TUsLFSVjONMqBymiTHKIdYMw/viewform?embedded=true"
-					width="100%" frameborder="0" marginheight="0" marginwidth="0" onload="resizeIframe(this)">Loading…</iframe>
+					width="100%" height="" frameborder="0" marginheight="0" marginwidth="0" style="min-height:98vh">Loading…</iframe>
 			</div>
 		</div>
 		<footer id="fh5co-footer" role="contentinfo"
@@ -528,10 +523,10 @@
 			playAudio1();
 			/*yang bagian floating button ada animasinya tapi karena ketutup dulu sama overlay jadinya gak nampak*/
 			/*pengen pas di klik buka undangan baru jalan animasinya*/
-			/*var c = document.getElementsByClassName('right-sidebar');
+			var c = document.getElementsByClassName('right-sidebar');
 			for (var i = 0; i < c.length; i++) {
 				c[i].classList.add('animate');
-			}*/
+			}
 		});
 
 		function scrollToElement(el) {
@@ -601,31 +596,6 @@
 			if (event.data === 0) {
 				togglePlayButton1(false);
 			}
-		}
-
-		function akadLocation() {
-			// If it's an iPhone..
-			if ((navigator.platform.indexOf("iPhone") != -1)
-				|| (navigator.platform.indexOf("iPod") != -1)
-				|| (navigator.platform.indexOf("iPad") != -1))
-				window.open("maps://www.google.com/maps?daddr=masjid+keuchik+leumik");
-			else
-				window.open("https://www.google.com/maps?daddr=masjid+keuchik+leumik");
-		}
-
-		function walimahLocation() {
-			// If it's an iPhone..
-			if ((navigator.platform.indexOf("iPhone") != -1)
-				|| (navigator.platform.indexOf("iPod") != -1)
-				|| (navigator.platform.indexOf("iPad") != -1))
-				window.open("maps://www.google.com/maps?daddr=Amel+Convention+Hall");
-			else
-				window.open("https://www.google.com/maps?daddr=Amel+Convention+Hall");
-		}
-
-		// TINGGI OTOMATIS IFRAME GOOGLE FORM BUKU TAMU
-		function resizeIframe(obj) {
-			obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
 		}
 	</script>
 
