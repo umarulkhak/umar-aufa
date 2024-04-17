@@ -1,103 +1,55 @@
-<div id="top"></div>
-<!--
-*** Thanks for checking out our wedding invitation template.
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+# Wedding Website
 
+![Cover Pernikahan Hairul dan Tahta](https://github.com/hairullana/wedding/assets/56705867/2148dfe8-0b73-4be6-a68f-ad7e981772cf)
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">
-    <img src="images/readme/half%20circle.png" alt="Logo" width="120" height="120">
-  </a>
+## Demo
 
-  <h1 align="center">The Wedding</h1>
+Website: [http://hairullana.github.io/wedding](http://hairullana.github.io/wedding)
 
-  <p align="center">
-    <strong>Rehan & Maulidan</strong>
-    <br />
-    <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">Explore the Invitation ! »</a>
-    <br />
-    <br />
-    <a href="https://github.com/rayhanyulanda">Rayhan Yulanda</a>
-    ·
-    <a href="https://github.com/maulidannashuha">Maulidan Nashuha</a>
-  </p>
-</div>
+Dengan nama Undangan: [http://hairullana.github.io/wedding?nama=Joko+Widodo](http://hairullana.github.io/wedding?nama=Joko+Widodo)
 
-## Features
-- Countdown to the date and count how many days have been
-- Save google calendar
-- Couple profile
-- Event date
-- Gallery photos
-- Quotes
-- Health protocol
-- RSVP with issue API
-- Music from youtube API
+## Deskripsi
 
-<!-- The wedding -->
-## Maulidan Nashuha <img src="images/readme/man.png" width="30px">
+Situs web pernikahan adalah tempat di mana saya berbagi informasi tentang acara pernikahan saya kepada keluarga, teman, dan tamu undangan. Saya berharap situs web ini akan membantu dalam menyebarkan informasi penting, seperti lokasi acara, jadwal, dan lainnya.
 
+Sumber kode berasal dari [github.com/NgodingSolusi/the-wedding-of-rehan-maulidan](https://github.com/NgodingSolusi/the-wedding-of-rehan-maulidan) yang saya modifikasi sesuai dengan kebutuhan saya.
 
+## Fitur Utama
 
-Reach me around the web :
+- Informasi tentang acara pernikahan saya.
+- Peta lokasi acara dengan arah.
+- Jadwal acara pernikahan.
+- Formulir RSVP untuk tamu undangan.
 
-<a href="https://www.linkedin.com/in/maulidannashuha/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://www.github.com/maulidannashuha/" target="_blank">
-<img src="https://img.shields.io/badge/Github-%fedcba.svg?&style=flat-square&logo=github&logoColor=white&color=black" alt="Github">
-</a>
-<a href="https://www.instagram.com/maulidannashuha/" target="_blank">
-<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram">
-</a>
-<!--<a href="https://twitter.com/ngodingsolusi" target="_blank">
-<img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter">
-</a>
-<a href="https://dev.to/ABSphreak" target="_blank">
-<img src="https://img.shields.io/badge/DEV-%230A0A0A.svg?&style=flat-square&logo=DEV.to&logoColor=white" alt="DEV.to">
-</a>
-<a href="https://open.spotify.com/user/0170agi99s5hh187g7mtz245b" target="_blank">
-<img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify">
-</a>-->
+Modifikasi:
+- Google Form Buku Tamu
+- Nama Tamu Undangan
+- Tampilan Isi Buku Tamu (fetch from google spreadsheet - response of google form) `on progress`
 
+## Cara Menggunakan
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+1. **Kloning Repositori:**
+   ```
+   git clone https://github.com/hairullana/wedding.git
+   ```
 
+2. **Buka Situs Web:**
+   Buka file `index.html` di peramban web kamu.
 
-## Rayhan Yulanda <img src="images/readme/woman.png" width="30px">
+## Kontribusi
 
+Saya sangat menghargai kontribusi dari siapa pun! Jika kamu ingin berkontribusi pada proyek ini, berikut adalah langkah-langkah umum:
 
+1. Fork repositori ini.
+2. Buat branch fitur baru (`git checkout -b fitur/fitur-baru`).
+3. Lakukan perubahan kamu.
+4. Commit perubahan kamu (`git commit -am 'Tambahkan fitur baru'`).
+5. Push ke branch kamu (`git push origin fitur/fitur-baru`).
+6. Buat permintaan tarik baru.
 
-Reach me around the web :
+## Kontak
 
-<a href="https://linkedin.com/in/rayhanyulanda">
-  <img alt="Rehan's Linkdein" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/linkedin.png" />
-</a>
-<a target="_blank" href="https://github.com/rayhanyulanda">
-<img alt="Rehan's Github" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/github.png" />
-</a>
-<a target="_blank" href="https://www.facebook.com/rayhanyulanda/">
-<img alt="Rehan's Facebook" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/facebook.png" />
-</a>
-<a target="_blank" href="https://medium.com/@rayhanyulanda">
-<img alt="Rehan's Medium" width="22px" src="https://raw.githubusercontent.com/RayhanYulanda/rayhanyulanda/master/assets/icons/medium.png" />
-</a>
+Jika kamu memiliki pertanyaan atau saran, jangan ragu untuk menghubungi saya di [hairullana99@gmail.com](mailto:hairullana99@gmail.com).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+Terima kasih telah mengunjungi repositori saya
 
-### Our big thanks to :
-- [Flaticon](https://flaticon.com) - for the assets
-- [Freepik](https://freepik.com) - for the images
-- [Base Template](https://technext.github.io/wedding/)
-
-### Show some :heart: with star the repo to support the project
-[![GitHub stars](https://img.shields.io/github/stars/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Star)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
-[![GitHub forks](https://img.shields.io/github/forks/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Fork)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
-[![GitHub watchers](https://img.shields.io/github/watchers/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Watch)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
-[![GitHub followers](https://img.shields.io/github/followers/maulidannashuha.svg?style=social&label=Follow)](https://github.com/maulidannashuha)
-
-### NOTE : PLEASE KEEP THE COPYRIGHTS OR CREDITS
